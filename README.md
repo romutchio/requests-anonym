@@ -1,5 +1,5 @@
 # requests-anonym
-Anonim Requests With Tor
+Anonym Requests With Tor
 
 
 Preparations:
