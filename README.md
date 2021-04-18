@@ -11,3 +11,9 @@ Check if tor works well
 curl --socks5 localhost:9050 --socks5-hostname localhost:9050 -s https://check.torproject.org/ | cat | grep -m 1 Congratulations | xargs
 ```
 3) pip install requests pysocks stem fake_useragent
+```bash
+# /usr/local/etc/tor/torrc
+
+ControlPort 9051
+CookieAuthentication 1
+```
